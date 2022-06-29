@@ -4,6 +4,5 @@ create table "Order" (
    OrderNumber          nvarchar(10)         null,
    CustomerId           int                  not null,
    TotalAmount          decimal(12,2)        null default 0,
-   constraint PK_ORDER primary key (Id)
 )
 go
