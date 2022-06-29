@@ -5,6 +5,5 @@ create table Customer (
    City                 nvarchar(40)         null,
    Country              nvarchar(40)         null,
    Phone                nvarchar(20)         null,
-   constraint PK_CUSTOMER primary key (Id)
 )
 go
