@@ -7,6 +7,5 @@ create table Supplier (
    Country              nvarchar(40)         null,
    Phone                nvarchar(30)         null,
    Fax                  nvarchar(30)         null,
-   constraint PK_SUPPLIER primary key (Id)
 )
 go
