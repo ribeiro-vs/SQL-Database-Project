@@ -5,7 +5,7 @@ AS
       DECLARE @LastName  VARCHAR (100)
       DECLARE @City      VARCHAR (100)
       DECLARE @Country   VARCHAR (100)
-      DECLARE @Phone     VARCHAR (100)
+      DECLARE @Phone     VARCHAR (20)
 
       BEGIN TRAN
 
